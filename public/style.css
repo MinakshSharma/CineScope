@@ -1,0 +1,179 @@
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background:#121212;
+    color:white;
+    overflow-x:hidden;
+}
+
+h1{
+    text-align:center;
+    margin-top:40px;
+    font-size:55px;
+    color:#3B82F6;
+    text-decoration:none;
+    text-shadow:none;
+}
+.subtitle{
+    text-align:center;
+    color:#cccccc;
+    margin-bottom:40px;
+    font-size:18px;
+}
+
+.formDiv {
+  color: black;
+  position: relative;
+  left: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button i {
+  height: 1.47rem;
+  width: 4rem;
+  position: relative;
+  top: 5px;
+  right: 2px;
+}
+
+button {
+  border-radius: 0.3rem !important;
+  border: 0;
+  position: relative;
+  right: 4.8rem;
+  background-color: #2563EB;
+}
+
+button:hover {
+  border: 3px solid black;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.searchHeading {
+  font-size: 1.3rem;
+  background-color:#2563EB;
+  height: 2.5rem;
+  position: relative;
+  top: 0.25rem;
+  left: 0.4rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 0 8px 0 8px;
+  border: black 2px solid;
+  box-shadow: 1px 1px 5px white;
+}
+
+/* styling movie card */
+.movie {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.movie_image{
+    padding:10px;
+}
+
+.movie_image img{
+    width:280px;
+    border-radius:15px;
+}
+p{
+    color:#d1d5db;
+    font-size:18px;
+    line-height:1.6;
+}
+
+.content{
+    padding:20px 40px;
+    color:white;
+}
+
+.box{
+    display:flex;
+    width:80%;
+    margin:auto;
+    background:#1f2937;
+    border-radius:20px;
+    padding:20px;
+    border:none;
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
+}
+
+@media (max-width: 1220px) {
+  .box {
+    display: block;
+    width: 40%;
+    height: 100%;
+    min-width: 360px;
+  }
+  .content {
+    padding-left: 1rem;
+    width: 100% !important;
+  }
+  .movie_image {
+    padding-bottom: 2rem;
+    text-align: center;
+    padding: 0;
+    padding-top: 2px;
+    height: 50%;
+    width: 100%;
+  }
+  .desc {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .content {
+    font-size: 10px;
+  }
+  .searchHeading {
+    display: none;
+  }
+}
+
+.footer{
+    margin-top:60px;
+    text-align:center;
+    color:#cccccc;
+    font-size:18px;
+    padding:20px;
+}
+.welcome-card{
+    width:75%;
+    margin:40px auto;
+    background:#1E293B;
+    color:white;
+    padding:30px;
+    border-radius:18px;
+    text-align:center;
+    box-shadow:0 8px 25px rgba(0,0,0,.25);
+}
+
+.welcome-card h2{
+    color:#60A5FA;
+    margin-bottom:15px;
+}
+
+.welcome-card p{
+    font-size:18px;
+    color:#d1d5db;
+}
+.favorite-btn{
+    background:#ef4444;
+    color:white;
+    border:none;
+    padding:12px 24px;
+    border-radius:10px;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.favorite-btn:hover{
+    background:#dc2626;
+    transform:scale(1.05);
+}
