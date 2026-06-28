@@ -1,61 +1,118 @@
 # 🎬 CineScope
 
-CineScope is a movie discovery web application built using **Node.js, Express.js, EJS, HTML, CSS, and JavaScript**. It allows users to search for movies and view real-time information fetched from the **OMDb API**.
+CineScope is a movie search web application built using **Node.js, Express.js, EJS, HTML, CSS, JavaScript, and Bootstrap**. It allows users to search for movies using the **OMDb API** and instantly view detailed information such as posters, plot, cast, director, genre, runtime, language, and release date. Users can also save their favorite movies using browser Local Storage.
 
-## Features
+## 🌐 Live Demo
+
+**Website:** https://cine-scope-opal.vercel.app
+
+**GitHub Repository:** https://github.com/MinakshSharma/CineScope
+
+---
+
+## ✨ Features
 
 * 🔍 Search movies by title
-* 🎬 Display movie poster, plot, genre, cast, director, language, release year, and ratings
-* ❤️ Save favorite movies using browser Local Storage
-* 📱 Responsive user interface for desktop and mobile devices
+* 🎬 Display movie posters
+* 📖 View detailed movie information
+* 🎭 Display cast, director, genre, language and runtime
+* ❤️ Add movies to Favorites
+* 📋 View saved favorite movies
+* 💾 Favorites stored using Local Storage
+* 📱 Responsive user interface built with Bootstrap
 * ⚡ Fast server-side rendering using Express.js and EJS
 
-## Tech Stack
+---
+
+## 🛠️ Tech Stack
 
 * Node.js
 * Express.js
 * EJS
 * HTML5
 * CSS3
-* Bootstrap 5
 * JavaScript
+* Bootstrap
 * OMDb API
 
-## Installation
+---
 
-1. Clone the repository.
-2. Install dependencies:
+## 📂 Project Structure
+
+```
+CineScope
+│── public/
+│   ├── style.css
+│   └── Error.gif
+│
+│── views/
+│   └── index.ejs
+│
+│── app.js
+│── package.json
+│── README.md
+│── vercel.json
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/MinakshSharma/CineScope.git
+```
+
+Move into the project folder
+
+```bash
+cd CineScope
+```
+
+Install dependencies
 
 ```bash
 npm install
 ```
 
-3. Start the application:
+Run the application
 
 ```bash
 npm start
 ```
 
-4. Open your browser and visit:
+Open your browser and visit
 
 ```
 http://localhost:8080
 ```
 
-## Future Improvements
+---
+
+## 🎯 Future Improvements
 
 * User authentication
-* Database integration for persistent favorites
-* Search history
-* Trending and popular movies
-* Dark/Light mode toggle
+* Database integration (MongoDB)
+* Personalized watchlist
+* Movie recommendations
+* Search suggestions and autocomplete
+* Dark/Light theme toggle
 
-## Author
+---
+
+## 👨‍💻 Author
 
 **Minaksh Sharma**
 
 B.Tech, IIT Ropar
 
-## License
+GitHub: https://github.com/MinakshSharma
 
-This project is licensed under the MIT License.
+---
+
+## 🙏 Acknowledgements
+
+* OMDb API for movie data
+* Bootstrap for responsive UI
+* Vercel for deployment
